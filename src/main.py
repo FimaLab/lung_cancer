@@ -1,8 +1,8 @@
-from tqdm import tqdm
 from pathlib import Path
 
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
+from tqdm import tqdm
 
 from constants import VIP_1, LABEL_NAME
 from src.custom_piplenes import ALL_PAIRS
