@@ -53,7 +53,7 @@ GB_PARAMETRS = {
     'gradient_boosting_classifier__max_depth': [5],
     'gradient_boosting_classifier__min_samples_leaf': [1, 2, 4],
     'gradient_boosting_classifier__subsample': [0.1, 0.3],
-    'gradient_boosting_classifier__n_estimators': [20, 30]
+    'gradient_boosting_classifier__n_estimators': [20, 30, 60, 100]
 }
 ALL_PAIRS = (
     {'estimator': LOG_PIPE, 'param_grid': LOG_PARAMETRS},
