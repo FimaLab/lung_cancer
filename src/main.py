@@ -18,8 +18,6 @@ if __name__ == '__main__':
                          cv=StratifiedKFold(n_splits=10, shuffle=True, random_state=42))
     if features_names is None:
         features_names = data.columns.drop(LABEL_NAME)
-    else:
-        features_names
     print(data.columns)
 
     features = data[features_names]
