@@ -128,4 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/.idea
+# tmp files
+**/.idea
+*.ipynb
+
+# mac
+.DS_Store
+
+*.pickle
