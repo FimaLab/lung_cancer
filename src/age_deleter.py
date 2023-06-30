@@ -44,4 +44,4 @@ def rm_age_trend(data: pd.DataFrame, df_coef: pd.DataFrame):
     for feature in df_coef.index:
         trend_values = arguments @ df_coef.loc[feature, ["k", "b"]]
         wo_trend[feature] = data[feature] - trend_values
-    return wo_trend
+    return pd.DataFrame(wo_trend)
